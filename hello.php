@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>main page</title>
+  <title>헬로 페이지</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -10,20 +10,25 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<?
-  include 'menu.php';
-  ?>
 
-<br>
-  
-<div class="내 사이트">
-  <h3>사이트</h3>
+<?php
+include 'menu.php';
+?>
+
+<div class="container-fluid">
+  <h3>내 php 사이트</h3>
   <?php
-  for($i=0; $i<=100; $i=$i+10)
-  {
-      echo "hello <br />";
-  }
+    //echo "Hello World";
+    for($i=1; $i<=10; $i=$i+1)
+    {
+      echo $i."Hello World <br>";
+    }
   ?>
+  <!-- Hello World<br>
+  Hello World<br>
+  Hello World<br>
+  Hello World<br>
+  Hello World -->
 </div>
 
 </body>
