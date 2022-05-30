@@ -18,8 +18,9 @@ include 'menu.php';
 <div class="container-fluid">
   <h3>검색하기</h3>
   <div class="form-inline">
-    <label for="keyword">검색어:</label>
+    <label for="keyword"></label>
     <input type="text" class="form-control" id="keyword" placeholder="검색어를 입력" name="keyword">
+    <label> </label>
     <button type="submit" id="submit" class="btn btn-primary">검색</button>
 </div>
 <br><br>
