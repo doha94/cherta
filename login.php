@@ -21,9 +21,9 @@
 <div class="container">
     <h2>로그인</h2>
     <form class="form-inline" action="/action_page.php">
-    <label for="email2" class="mb-2 mr=sm=2"> email:</label>
+    <label for="email2" class="mb-2 mr=sm=2"> email : </label>
     <input type="text" class="from-control mb-2 mr-sm-2" id="emali2" placeholder="Enter email" name="email">
-    <label for="pmd2" class="mb-2 mr-sm-2">Password:</label>
+    <label for="pmd2" class="mb-2 mr-sm-2">Password : </label>
     <iinput type="text" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="Enter password" name="pswd">
     <div class="form-check mb-2 mr-sm-2">
         <label class="form-check-label">

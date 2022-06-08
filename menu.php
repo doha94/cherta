@@ -13,7 +13,7 @@
       <a class="nav-link" href="/slist.php">검색리스트</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">추가메뉴</a>
+      <a class="nav-link" href="/login.php">로그인</a>
     </li>
   </ul>
 </nav>
