@@ -14,21 +14,9 @@
 include 'menu.php';
 ?>
 
-<div class="container">
-<h2>로그인</h2>
-  <form action="/login_proc.php" method='post'>
-    <div class="form-group">
-      <label for="userid">아이디:</label>
-      <input type="text" class="form-control" id="userid" placeholder="아이디입력" name="userid">
-    </div>
-    <div class="form-group">
-      <label for="userpw">비밀번호:</label>
-      <input type="password" class="form-control" id="userpw" placeholder="패스워드 입력" name="userpw">
-    </div>
-    
-    <button type="submit" class="btn btn-primary">로그인</button>
-  </form>
-
+<div class="container-fluid">
+  <h3>php 사이트</h3>
+<img src="https://jmagazine.joins.com/_data/photo/2016/05/2949993309_olERkGMq_01.jpg">  
 </div>
 
 </body>
